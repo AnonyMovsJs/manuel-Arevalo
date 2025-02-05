@@ -1,0 +1,37 @@
+{
+    "profile": {
+        "titulo": "Sunny Day",
+        "mensaje": "Experimenta una nueva dimensión de claridad y estilo con nuestros lentes excepcionales. Desde la sofisticación hasta la protección, cada par ofrece una mirada que no solo define tu estilo, sino que también transforma tu perspectiva. Sumérgete en la calidad, la comodidad y la distinción que solo nuestros lentes pueden brindarte.",
+        "lista1": "✅ Protección total: Opta por lentes con protección UV de calidad para salvaguardar tus ojos de los dañinos rayos solares. Busca aquellos que ofrezcan cobertura total contra los rayos UVA y UVB para cuidar tu visión a largo plazo.", 
+        "lista2": "✅ Estilo y funcionalidad: Encuentra un equilibrio entre el estilo que buscas y la funcionalidad que necesitas. Los lentes de moda pueden ser una declaración de estilo, pero asegúrate de que también se ajusten cómodamente y cumplan con tus necesidades específicas, ya sea para el trabajo, el deporte o actividades al aire libre.", 
+        "lista3": "✅ Calidad duradera: Invierte en lentes de calidad que sean duraderos y resistentes. Los materiales de alta calidad y la construcción robusta no solo aseguran una mayor longevidad, sino que también garantizan una mejor experiencia visual y un uso prolongado con comodidad."
+    },
+
+    "experience": {
+        "item0": "Comprar Lentes",
+        "item1": "Nombre: ",
+        "item2": "Número de DNI: ",
+        "item3": "Teléfono: ",
+        "item4": "Correo Electrónico: ",
+        "item5": "Número de Lentes: ",
+        "item6": "Enviar",
+        "item7": "Precio: $185",
+        "item8": "'CrystalView: visión clara, estilo moderno, protección UV. Tus ojos, nuestra prioridad.'",
+        "item9": "'CrystalView: visión clara, estilo moderno, protección UV. Tus ojos, nuestra prioridad.'",
+        "item10": "Comprar",
+        "item11": "Ver más",
+        "item12": "Reseñas",
+        "item13": "'¡Los lentes de esta tienda son increíbles! Compré un par de lentes CrystalView y estoy encantada. Son cómodos, se ajustan perfectamente y la claridad que ofrecen es excepcional. Definitivamente los recomiendo a todos.'",
+        "item14": "Mis nuevos lentes de sol son geniales. Me encanta el estilo y cómo protegen mis ojos de la luz solar intensa. Son ligeros y se sienten muy duraderos. Una excelente elección para quienes buscan calidad y estilo en un solo producto.",
+        "item15": "Estoy muy satisfecha con mis lentes 'CrystalView'. Son elegantes y funcionales. Me han dado una visión clara sin comprometer el estilo. Definitivamente, una inversión que vale la pena para quienes buscan comodidad y moda.",
+        "item16": "Para más información visitanos en nuestra página hhtp:/lentes:sonnyDay-vision.com",
+        "item17": "Recursos",
+        "item18": "Preguntas Frecuentes",
+        "item19": "Corporación",
+        "item20": "Centro de Ayuda",
+        "item21": "Compañía",
+        "item22": "SucursaLes",
+        "item23": "Clientes",
+        "item24": "Redes Sociales"
+    }
+}

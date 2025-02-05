@@ -1,0 +1,168 @@
+
+/* Estilos para el modo oscuro */
+.bg-body {
+    background: rgb(0,0,0);
+    background: linear-gradient(53deg, rgba(0,0,0,1) 0%, rgba(74,33,29,1) 100%); 
+    color: white;
+    transition: all .3s linear;
+}
+
+
+.bg-form {
+    background: rgb(177,123,32);
+background: linear-gradient(225deg, rgba(177,123,32,1) 26%, rgba(167,135,24,1) 54%, rgba(194,179,66,1) 72%);
+}
+
+
+.bg-card {
+    background: rgb(220,220,228);
+    background: linear-gradient(159deg, rgba(220,220,228,1) 0%, rgba(11,6,13,1) 68%); 
+    border-radius: 5%;
+    color: red;
+    transition: all .3s linear;
+}
+
+.bg-card:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.bg-boton {
+    background: rgb(177,123,32);
+    background: linear-gradient(225deg, rgba(177,123,32,1) 26%, rgba(167,135,24,1) 54%, rgba(194,179,66,1) 72%);
+}
+
+.bg-boton:hover {
+    background: rgb(149,100,17);
+    background: linear-gradient(225deg, rgba(149,100,17,1) 26%, rgba(127,104,24,1) 54%, rgba(136,125,41,1) 72%);
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.dark-mode {
+    background: rgb(29,24,24);
+background: linear-gradient(201deg, rgba(29,24,24,1) 43%, rgba(65,60,60,1) 80%);
+    color: white;
+    transition: all .3s linear;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+
+    @media (min-width: 768px) {
+        gap: 1rem;
+        flex-direction: row;
+        width: auto;
+        margin-top: 0;
+        align-items: center;
+    }
+}
+
+
+.btn-wssp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #0df053;
+    color: #fff;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-wssp:hover {
+    background: #fff;
+    color: #0df053;
+  }
+  
+  .btn-fb {
+    background: #4267B2;
+    color: #fff;
+  }
+  
+  .btn-ig {
+    background: #E4405F;
+    color: #fff;
+  }
+  
+  .btn-lk {
+    background: #0077B5;
+    color: #fff;
+  }
+
+
+.dark-mode .bg-form {
+    background: rgb(26,26,26);
+    background: linear-gradient(201deg, rgba(26,26,26,0.6435719551492471) 13%, rgba(26,26,26,0.9600985657935049) 50%);
+    box-shadow: 1px 1px 10px #333333;
+}
+
+.dark-mode input, option, select {
+    color: #403f3f;
+}
+
+.dark-mode .bg-inf {
+    box-shadow: 3px 3px 10px #333333;
+}
+
+.dark-mode .bg-sug {
+    box-shadow: 5px 5px 10px #333333;
+}
+
+.dark-mode .bg-card {
+    background: rgb(26,26,26);
+    background: linear-gradient(201deg, rgba(26,26,26,0.6435719551492471) 13%, rgba(26,26,26,0.9600985657935049) 50%);
+    box-shadow: 5px 5px 10px #333333;
+    color: white;
+    transition: all .3s linear;
+}
+
+.dark-mode .darkMode {
+    filter: invert(100%);
+}
+
+
+.menu-hamburguesa {
+    width: 3rem;
+    cursor: pointer;
+
+    @media (min-width: 768px) {
+        visibility: hidden;
+    }
+    
+}
+
+.navegaciones {
+    visibility: hidden;
+    display: flex;
+    width: 100%; 
+    opacity: 0;
+    height: 0;
+    margin-top: 1rem;
+    transition: visibility .3s ease-in-out, opacity .3s linear, height .1s linear;
+
+    @media (min-width: 768px) {
+        visibility: visible;
+        opacity: 1;
+        gap: 100px;
+        width: auto;
+        align-items: center;
+        margin-top: 0;
+        flex-direction: row;
+    }
+
+}
+
+
+.mostrar {
+    visibility: visible;
+    height: 100%;
+    opacity: 1;
+}
